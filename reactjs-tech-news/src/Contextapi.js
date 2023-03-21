@@ -5,7 +5,7 @@
 
 import React, { useContext, useReducer, useEffect } from "react";
 import reducer from "./reducer";
-const API = "http://hn.algolia.com/api/v1/search?";
+const API = "https://hn.algolia.com/api/v1/search?";
 const initialState = {
   isLoading: true,
   query: "JavaScript",
